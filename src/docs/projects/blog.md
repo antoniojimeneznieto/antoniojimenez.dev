@@ -1,5 +1,6 @@
-<div class="project-header">
-  <h1>Blog</h1>
+# Laika Blog
+
+<div class="project-meta">
   <a href="https://github.com/antoniojimeneznieto/blog" class="project-repo">View on GitHub</a>
 </div>
 

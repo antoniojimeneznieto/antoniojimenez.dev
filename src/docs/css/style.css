@@ -200,29 +200,18 @@ footer p {
 
 /* ── Projects ── */
 
-.project-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.project-header h1 {
-  margin-bottom: 0;
+.project-meta {
+  margin-bottom: 1.2rem;
 }
 
 .project-repo {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
+  display: inline-block;
   padding: 0.45rem 0.9rem;
   background: #24292e;
   color: #fff;
   border-radius: 6px;
   font-size: 0.8rem;
   font-weight: 500;
-  white-space: nowrap;
   transition: background 0.2s;
 }
 
@@ -232,16 +221,13 @@ footer p {
   text-decoration: none;
 }
 
-.project-repo svg {
-  flex-shrink: 0;
-}
-
 .project-gallery {
   margin: 1rem 0 1.5rem;
 }
 
 .project-gallery img {
-  max-width: 100%;
+  max-width: 480px;
+  width: 100%;
   height: auto;
   border-radius: 6px;
   border: 1px solid #e8e8e8;
